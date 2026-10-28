@@ -1,0 +1,69 @@
+# Fullstop Offline QR Code Studio
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Zero-Knowledge](https://img.shields.io/badge/Privacy-100%25%20Client--Side-brightgreen)](https://www.fullstopsolution.in/security.html)
+[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux-blue)](https://www.fullstopsolution.in/#desktop)
+[![Website](https://img.shields.io/badge/Official-fullstopsolution.in-cyan)](https://www.fullstopsolution.in/#tools)
+
+> **Privacy-first QR code generator for URLs, UPI payments, vCards, Wi-Fi networks, and text with 512px vector PNG export.**
+
+Part of the **Fullstop Solution Precision Software Tools & Business OS Platforms** ecosystem ([www.fullstopsolution.in](https://www.fullstopsolution.in)).
+
+---
+
+## 🌐 Live Demos & Access
+
+* **Live Web App on GitHub Pages:** [https://iamkuruphere-sudo.github.io/fullstop-qr-generator/](https://iamkuruphere-sudo.github.io/fullstop-qr-generator/)
+* **Official Fullstop Suite:** [https://www.fullstopsolution.in/#tools](https://www.fullstopsolution.in/#tools)
+* **Zero Telemetry / 100% In-Browser Execution:** Mathematical client-side sandbox. No external tracking, no backend calls, zero latency.
+
+---
+
+## ⚡ Key Features
+
+* **100% Local Execution:** Computations run entirely inside your browser's V8 / JavaScriptCore engine.
+* **Responsive Dark/Light Theme:** Built with a modern cyber-glass Obsidian design system with high-contrast Retina accessibility.
+* **Zero Dependencies:** Fully self-contained single-file application (`index.html`) that works offline anywhere.
+* **Phone-Scannable Formats:** Native support for Indian UPI Payment requests (`upi://pay`), Wi-Fi credentials (`WIFI:S`), vCard contact details, and web URLs.
+* **Custom Styling:** Configurable foreground and background colors with auto-updating HTML5 Canvas.
+* **Vector 512px Export:** Instant crisp PNG download designed for business cards, storefront signage, and receipts.
+* **100% Client-Side:** QR payload is encoded and rendered using HTML5 Canvas directly in local RAM.
+
+---
+
+## ⬇️ Desktop Software Downloads
+
+Prefer native desktop applications? The full offline digital suite is compiled and cryptographically signed for all major workstations:
+
+| Platform | Architecture | Format | Download Link | Verified SHA-256 |
+| :--- | :--- | :--- | :--- | :--- |
+| **macOS Apple Silicon** | M1, M2, M3, M4 (arm64) | `.zip` | [Download for Mac Silicon](https://www.fullstopsolution.in/downloads/mac/fullstop-desktop-macos-arm64.zip) | `242ee6622cd41a45068c104de9a3bd838447102c239eaf7adc5892f8341c338b` |
+| **macOS Intel** | x86_64 Core i5/i7/i9 | `.zip` | [Download for Mac Intel](https://www.fullstopsolution.in/downloads/mac/fullstop-desktop-macos-x64.zip) | `bdc3e0970bc55ed14572899c834831c726ea89dcec622e4b690c12c429a3fb15` |
+| **Windows** | 64-bit Portable | `.zip` | [Download for Windows x64](https://www.fullstopsolution.in/downloads/windows/fullstop-desktop-windows-x64.zip) | `be983faf78d1184c5416f89d763d57243b9a84867da37d9ed0580dba4aaa0bee` |
+| **Linux Universal** | x86_64 | `.tar.gz` | [Download for Linux](https://www.fullstopsolution.in/downloads/linux/fullstop-desktop-linux-x86_64.tar.gz) | `aeb9a2f6c6cd2c05ed8257b2b4909445c5f6ae9b66ca83554daf88d40d2d1f77` |
+| **MacSentinel** (macOS Endpoint Auditor) | arm64 macOS 14+ | `.dmg` | [Download MacSentinel DMG](https://www.fullstopsolution.in/downloads/mac/MacSentinel-arm64.dmg) | `060f124de7d888b03550b42c8b011b3e8884e44dbe0acd49946252e4ff0016d3` |
+
+* **Official Checksums:** [https://www.fullstopsolution.in/downloads/SHA256SUMS.txt](https://www.fullstopsolution.in/downloads/SHA256SUMS.txt)
+* **GPG Release Signature:** [https://www.fullstopsolution.in/downloads/FULLSTOP-SIGNATURE.asc](https://www.fullstopsolution.in/downloads/FULLSTOP-SIGNATURE.asc) (Key ID: `0x9E7F4B2C7D10A843`)
+
+---
+
+## 🚀 Running Offline & Locally
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/iamkuruphere-sudo/fullstop-qr-generator.git
+   cd fullstop-qr-generator
+   ```
+2. Double-click `index.html` or open it in any modern browser (Chrome, Safari, Firefox, Edge).
+3. No build tools, no Node.js server, no Docker, and no internet connection required.
+
+
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+© 2026 **Fullstop Solution** ([www.fullstopsolution.in](https://www.fullstopsolution.in)). All rights reserved.
